@@ -1,0 +1,16 @@
+
+Quelle architecture offrira une meilleure expérience aux clients et produira un produit de meilleure qualité? Qu'est-ce qui sera plus facile à opérationnaliser et à respecter votre échéance? Quel chemin permettra de mieux gérer les problèmes de support, de conformité et de sécurité? Enfin, quelle approche pouvez-vous mettre en œuvre au moindre coût?
+
+
+
+
+
+
+
+Cas d’utilisation principal:Applications conteneurisées
+
+
+
+
+
+ 

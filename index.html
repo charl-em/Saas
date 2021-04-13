@@ -27,7 +27,7 @@ h3{text-align: center;}
     <a href="#fonc_trend" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Fonctionnements et popularité</a> 
     <a href="#appli_imp" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Applications vs impacts</a> 
        <a href="#saas_iaas" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Saas ou Iaas</a> 
-    <a href="#typ_ex" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Types de fournisseurs et exemples</a>
+       <a href="#caas_fass" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Caas ou Faas</a>
   </div>
 </nav>
 
@@ -147,14 +147,9 @@ Enfin, la plateforme Saas permet de réduire considérablement les temps de dép
     <hr>
     <p>Pourquoi le SaaS est désormais accessible à tous ?</p>
     <p>En 10 ans, le marché du SaaS a beaucoup évolué. Au commencement, personne n’était vraiment certain de la pertinence de ce modèle. Nul n’était sûr que les entreprises accepteraient de payer un abonnement pour accéder à un logiciel, et les banques avaient peur des risques.
-
-
 Désormais, ce manque de certitudes a totalement disparu. De même, les prix ont baissé et la mise en place est beaucoup plus facile. Cependant, il est toujours nécessaire de proposer des logiciels de qualité à un prix raisonnable pour se démarquer sur le marché des SaaS.</p>
   </div>
 
-  
-
-  <!-- Packages / Pricing Tables -->
   <div class="w3-container" id="appli_imp" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Applications vs impacts.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
@@ -177,7 +172,7 @@ Le logiciel en tant que service (SaaS) est donc la livraison conjointe de moyens
 
 Face à l’essor des SaaS, les professionnels IT doivent songer à la façon dont leur métier s’en trouve transformé. Les logiciels on-premise sont de moins en moins adoptés, contrairement aux SaaS. Heureusement, alors que les bénéfices sont nombreux, l’impact sur les équipes informatiques est minime.</p>
   </div>
- <!-- Packages / Pricing Tables -->
+ 
   <div class="w3-container" id="saas_iaas" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Saas ou Iaas.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
@@ -191,7 +186,7 @@ La migration d’applications vers le cloud, délaissée depuis quelque temps, r
 Plusieurs applications SaaS comme Salesforce, Gmail et Office 365 sont si couramment utilisées que les entreprises sont en confiance et n’ont plus de réelle raison de ne pas s’en remettre à elles. De même ce marché est devenu si robuste que les vendeurs d’applications qui n’ont pas de stratégie dans ce domaine peinent à décoller. Ainsi, même si le marché des IaaS semble destiné à une forte croissance, il serait faux de penser que ce marché est en passe d’être relégué au second plan.</p>
   </div>
   
-  <!-- Packages / Pricing Tables -->
+
   <div class="w3-container" id="typ_ex" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Types de fournisseurs et exemples.</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
@@ -211,6 +206,41 @@ Depuis 2009, les éditeurs « historiques » comme IBM, Microsoft, HP, Sage, SAP
 De nombreuses entreprises développent aujourd'hui des logiciels en mode SaaS, par exemple Sage (CRM), Oodrive (Sauvegarde de données), Oxatis (création de site e-commerce), Boomerang Web (gestion des achats), z0 Gravity (logiciel de gestion de portefeuilles de projets), Arskan SiloData (plateforme d'exploitation des données 3D), ENFOS, Equity, Netside Planning, Atemis, Caps, Compta…, certaines en s'appuyant sur des acteurs du marché comme Exoscale ou Digital Ocean.
 </p>
   </div>
+
+  <div class="w3-container" id="caas_faas" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Caas ou Fass.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>CaaS: Conteneur en tant que service</p>
+    <p>Que sont les conteneurs ?
+      Les conteneurs sont une alternative aux hyperviseurs et utilisent un certain nombre de concepts du monde Unix (groupes de contrôle, système de fichiers Union, espaces de noms et processus) pour exécuter vos applications en toute sécurité.
+      Les conteneurs s’exécutent dans des partitions isolées d’un seul noyau Linux s’exécutant directement sur le matériel physique.
+      Les groupes de contrôle Linux (Control Groups ou cgroups) et les espaces de noms sont les technologies sous-jacentes du noyau Linux utilisées pour isoler, sécuriser et gérer les conteneurs.
+      La conteneurisation offre des performances plus élevées que la virtualisation/hyperviseurs, car il n’y a pas de surcharge de l’hyperviseur. De plus, la capacité du conteneur évolue automatiquement de manière dynamique avec la charge de calcul, ce qui élimine le problème de sur-approvisionnement et permet une facturation basée sur l’utilisation.</p>
+<hr>
+<p>Qu’est-ce que CaaS ?</p>
+<p>CaaS ou Containers as a Service permet aux utilisateurs de déployer et de gérer des applications conteneurisées en proposant des produits spécifiques. Ces derniers fournissent un moyen simple d’exécuter vos déploiements à un seul conteneur, en particulier pour exécuter vos microservices simples. Ils peuvent aussi fournir une plateforme d’orchestration de conteneurs gérée comme Kubernetes pour exécuter des déploiements multi-conteneurs plus complexes.
+  Les plateformes d’orchestration de conteneurs fournissent des services tels que la découverte de services, la planification de conteneurs, la mise en réseau de conteneurs, la surveillance, etc.
+  Dans les deux cas, l’exécution du conteneur et d’autres services liés au conteneur sont fournis par le fournisseur CaaS.</p><br>
+  Exemples : Elastic Kubernetes Service, Google Kubernetes Engine, Azure Kubernetes Service, Azure Container Instance, Cloud Run, AWS Fargate, ECS, etc.
+Structure de paiement :Les produits qui offrent des fonctionnalités d’orchestration de conteneurs (Elastic Kubernetes Service, Google Kubernetes Engine, etc.) facturent généralement les ressources utilisées pour créer le cluster de conteneurs (par exemple, les VM, les équilibreurs de charge, le stockage en bloc, etc.).
+Bien que certains d’entre eux facturent également la gestion des clusters, par exemple, Google Kubernetes Engine facture 0,10 USD/heure par cluster. D’autre part, les produits qui n’offrent aucune fonctionnalité d’orchestration facturent généralement la mémoire et le processeur virtuel utilisés.
+  </div><hr>
+  <p>FaaS : Fonction en tant que service</p>
+  <p>FaaS (Function as a Service), tout comme le PaaS, vous permet de vous concentrer principalement sur la logique métier, mais a un cas d’utilisation assez différent.
+    FaaS vous permet d’écrire une fonction dans l’un des langages / frameworks de programmation pris en charge et ces fonctions sont ensuite invoquées lors d’un certain événement déclenché ou d’un appel HTTP. Les caractéristiques importantes des applications FaaS incluent :
+    Le client implémente uniquement la logique métier dans les fonctions.
+    Les applications implémentées avec FaaS sont sans état.
+    Pas besoin de vous soucier de la planification de la capacité, de la parallélisation et de l’évolutivité ; le fournisseur FaaS s’en charge.
+    Piloté par les événements et réactif : avec FaaS, aucun processus serveur n’est en cours d’exécution. A la place, il y a un appel de fonction dès qu’un événement déclencheur a été déclenché, par exemple un appel HTTP.
+    Pour la persistance, un serveur de base de données externe ou un système de fichiers réseau doit être utilisé (en raison de la nature sans état de l’application !).
+    FaaS permet une évolutivité simple, puisque les fonctions sans état peuvent être mises à l’échelle horizontalement de manière triviale.
+    Étant donné que vous payez par appel de fonction (mémoire et processeur virtuel alloués pour la fonction), si la fonction n’est jamais appelée, rien ne vous est facturé.
+    Les produits FaaS peuvent être utilisés pour intégrer différents services.</p><br>
+    <p>Cas d’utilisation principal: Architecture événementielle, programmation réactive, sans serveur, travaux ETL, applications sans état
+      Exemples : Azure Functions, Cloud Functions, AWS Lambda
+      Structure de paiement : Les produits FaaS sont principalement facturés en fonction de la quantité de mémoire (principalement calculée en Go) et du processeur virtuel utilisé.
+      La granularité facturée par les clouds est cependant différente : AWS facture par 1 ms, Google Cloud charge par 100 ms tandis qu’Azure facture par seconde. AWS propose également une simultanéité provisionnée pour un meilleur contrôle des performances.
+      Certains clouds ​​facturent également l’appel de fonction après avoir franchi une limite d’appels gratuits. Par exemple, Google Cloud facture 0,40 USD par million d’appels après une limite d’appels gratuits de deux millions, tandis qu’Azure facture 0,20 USD par million d’exécutions après une limite d’appels gratuits d’un million.</p>
 
 <!-- End page content -->
 </div>
